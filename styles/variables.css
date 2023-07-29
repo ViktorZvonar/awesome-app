@@ -1,20 +1,9 @@
 :root {
-	--color-background-hero: #1F2937;
-	--color-background-footer: #1F2937;
-	--color-background-main: #FFFFFF;
-
-	--color-header-logo: #F9FAF8;
-	--color-header-link: #E5E7EB;
-	--color-header-information-text: #1F2937;
-
-	--color-hero-header: #F9FAF8;
-	--color-hero-secondary-text: #E5E7EB;
-
+	--color-primary: #1F2937;
+	--color-background: #FFFFFF;
+	--color-neutral1: #E5E7EB;
+	--color-neutral2: #F9FAF8;
 	--color-button: #3882F6;
-
-	--color-background-quote: #E5E7EB;
-	--color-quote-text: #1F2937;
-
 
 
 
