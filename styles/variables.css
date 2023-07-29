@@ -1,0 +1,30 @@
+:root {
+	--color-background-hero: #1F2937;
+	--color-background-footer: #1F2937;
+	--color-background-main: #FFFFFF;
+
+	--color-header-logo: #F9FAF8;
+	--color-header-link: #E5E7EB;
+	--color-header-information-text: #1F2937;
+
+	--color-hero-header: #F9FAF8;
+	--color-hero-secondary-text: #E5E7EB;
+
+	--color-button: #3882F6;
+
+	--color-background-quote: #E5E7EB;
+	--color-quote-text: #1F2937;
+
+
+
+
+
+	--font-size-header-logo-text: 24px;
+	--font-size-header-link: 18px;
+	--font-size-header-information-text: 36px;
+
+	--font-size-hero-header: 48px;
+	--font-size-hero-secondary-text: 18px;
+
+	--font-size-quote-text: 36px;
+}
