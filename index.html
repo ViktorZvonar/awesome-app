@@ -7,7 +7,36 @@
     <title>Awesome Web Site</title>
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="container flex-for-header">
+        <a class="logo" href="./index.html">
+          <img class="logo-image" src="./images/logo.png" alt="Logo" />
+          <p class="logo-text">Rise and Code :)</p>
+        </a>
+        <input type="checkbox" id="hamburger" />
+        <label class="hamburger-label" for="hamburger"
+          ><span class="hamburger-sign">&#9776</span>;
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item current"><a href="/index.html"></a>Home</li>
+              <li class="header-nav-item">
+                <a href="/pages/page1.html">About Us</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="/pages/page2.html">Portfolio</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="/pages/page3.html">Order</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="/pages/page4.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </label>
+      </div>
+    </header>
+
     <main class="container">
       <h1>Hello world</h1>
     </main>
