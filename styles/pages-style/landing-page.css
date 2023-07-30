@@ -98,7 +98,7 @@
 
 .values {
 	display: flex;
-	flex-direction: column;
+	margin-bottom: 100px;
 }
 
 .values-title {
@@ -112,7 +112,7 @@
 .values-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 30px;
+	gap: 50px;
 	justify-content: center;
 	align-items: center;
 }
@@ -120,13 +120,13 @@
 .values-item {
 	max-width: 180px;
 }
-	
+
 .values-item-figure {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 .values-item-subtext {
@@ -142,17 +142,25 @@
 	margin-bottom: 10px;
 }
 
-@media (min-width: 768px) {
-	.values-item {
-		flex-basis: calc((100% - 30px) / 2);
-	}
+.quote {
+	background-color: var(--color-neutral1);
 }
 
-@media (min-width: 1280px) {
-	.values-item {
-		flex-basis: calc((100% - 3 * 30px) / 4);
-	}
+.quote-wrap {
+	padding: 60px 80px;
 }
 
+.quote-text {
+	color: var(--color-primary);
+	font-size: var(--font-size-header-information-text);
+	font-weight: 100;
+	font-style: italic;
+	margin-bottom: 10px;
+}
 
-
+.quote-signature {
+	color: var(--color-primary);
+	font-size: var(--font-size-hero-secondary-text);
+	font-weight: bold;
+	text-align: end;
+}
