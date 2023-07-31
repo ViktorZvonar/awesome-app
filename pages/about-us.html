@@ -15,9 +15,26 @@
         <img class="logo-image" src="../images/logo.png" alt="Logo" />
         <p class="logo-text">Rise and Code :)</p>
       </a>
-      <nav class="nav-linkHomepage">
-        <a href="../index.html">Go to home page</a>
-      </nav>
+      <input type="checkbox" id="hamburger" />
+      <label class="hamburger-label" for="hamburger"><span class="hamburger-sign">&#9776</span>;
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="../index.html">Home</a></li>
+            <li class="header-nav-item current">
+              <a href="../pages/about-us.html">About Us</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="../pages/page2.html">Portfolio</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="../pages/page3.html">Order</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="../pages/page4.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </label>
     </div>
   </header>
   <main class="container">
@@ -63,7 +80,7 @@
     </figure>
 
     <figure class=" team-member">
-      <img src="" alt="profile photo of sania">
+      <img src="../images/mainHero-Image.jpg" alt="profile photo of sania">
       <p>
         My name is Sania, and I am an innovative front-end developer with a deep interest in AI and machine learning. My
         skills include working with React, Vue and Angular to build highly interactive and dynamic user interfaces. I
@@ -77,7 +94,7 @@
     </figure>
 
     <figure class="team-member">
-      <img src="" alt="profile photo of elif">
+      <img src="../images/friends.jpeg" alt="profile photo of elif">
       <p>
         I'm Elif, a dedicated back-end developer with a passion for cloud technologies and cyber security. With
         extensive experience in Node.js, Django, and Ruby on Rails, I specialize in building robust and secure back-end
@@ -91,7 +108,7 @@
     </figure>
 
   </main>
-  <footer class="footer">
+  <footer class="footer footer_aboutus">
     <div class="container">
       <p class="footer-copyright"><span class="footer-sign">&copy</span> 2023 Rise and Code:)</p>
     </div>
