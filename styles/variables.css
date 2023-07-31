@@ -1,12 +1,9 @@
 :root {
-	--color-primary: #1F2937;
-	--color-background: #FFFFFF;
-	--color-neutral1: #E5E7EB;
-	--color-neutral2: #F9FAF8;
-	--color-button: #3882F6;
-
-
-
+	--color-primary: #1f2937;
+	--color-background: #ffffff;
+	--color-neutral1: #e5e7eb;
+	--color-neutral2: #f9faf8;
+	--color-button: #3882f6;
 
 	--font-size-header-logo-text: 24px;
 	--font-size-header-link: 18px;

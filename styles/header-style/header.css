@@ -85,9 +85,11 @@
 		flex-direction: column;
 		width: 100px;
 		padding: 5px;
-		gap: 10px;
+		margin: 5px;
+		gap: 20px;
 		background-color: var(--color-primary);
-		border-radius: 25%;
+		border-radius: 15px;
+		border: 3px solid #fbc55e;
 	}
 
 	.logo-text {

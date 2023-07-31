@@ -1,0 +1,38 @@
+.quote {
+	background-color: var(--color-neutral1);
+}
+
+.quote-wrap {
+	padding: 40px 60px;
+}
+
+.quote-text {
+	color: var(--color-primary);
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.quote-signature {
+	color: var(--color-primary);
+	font-size: var(--font-size-hero-secondary-text);
+	font-weight: bold;
+	text-align: end;
+}
+
+@media (min-width: 768px) {
+	.quote-text {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.quote-wrap {
+		padding: 60px 80px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.quote-text {
+		font-size: var(--font-size-header-information-text);
+	}
+}
