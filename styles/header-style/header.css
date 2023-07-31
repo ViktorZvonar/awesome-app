@@ -28,6 +28,7 @@
 .logo {
 	display: flex;
 	align-items: center;
+	transition: transform 0.2s ease;
 }
 
 .logo-image {
@@ -41,6 +42,15 @@
 .header-nav-item,
 .hamburger-sign {
 	color: var(--color-neutral2);
+	transition: transform 0.2s ease;
+}
+.logo:hover,
+.logo:focus,
+.header-nav-item:hover,
+.header-nav-item:focus,
+.hamburger-sign:hover,
+.hamburger-sign:focus {
+	transform: scale(1.1);
 }
 
 .logo-text {

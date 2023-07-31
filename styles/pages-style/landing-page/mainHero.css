@@ -22,13 +22,13 @@
 
 .mainHero-title {
 	color: var(--color-neutral2);
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 }
 
 .mainHero-subtext {
 	color: var(--color-neutral1);
-	font-size: var(--font-size-header-link);
+	font-size: 14px;
 }
 
 .mainHero-button {
@@ -58,6 +58,10 @@
 		width: 70%;
 	}
 
+	.mainHero-subtext {
+		font-size: var(--font-size-header-link);
+	}
+
 	.mainHero {
 		padding-bottom: 20px;
 	}
@@ -72,7 +76,7 @@
 	}
 
 	.mainHero-title {
-		font-size: 35px;
+		font-size: 30px;
 		font-weight: bold;
 	}
 }

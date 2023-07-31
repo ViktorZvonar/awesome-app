@@ -3,7 +3,7 @@
 }
 
 .quote-wrap {
-	padding: 40px 60px;
+	padding: 20px;
 }
 
 .quote-text {
@@ -16,7 +16,7 @@
 
 .quote-signature {
 	color: var(--color-primary);
-	font-size: var(--font-size-hero-secondary-text);
+	font-size: 12px;
 	font-weight: bold;
 	text-align: end;
 }
@@ -28,6 +28,10 @@
 	}
 	.quote-wrap {
 		padding: 60px 80px;
+	}
+
+	.quote-signature {
+		font-size: var(--font-size-hero-secondary-text);
 	}
 }
 
