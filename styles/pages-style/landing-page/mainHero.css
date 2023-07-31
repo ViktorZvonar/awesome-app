@@ -22,13 +22,13 @@
 
 .mainHero-title {
 	color: var(--color-neutral2);
-	font-size: 25px;
+	font-size: var(--font-size-header-logo-text);
 	font-weight: bold;
 }
 
 .mainHero-subtext {
 	color: var(--color-neutral1);
-	font-size: 14px;
+	font-size: var(--font-size-small);
 }
 
 .mainHero-button {
@@ -59,7 +59,7 @@
 	}
 
 	.mainHero-subtext {
-		font-size: var(--font-size-header-link);
+		font-size: var(--font-size-before-medium);
 	}
 
 	.mainHero {
@@ -76,7 +76,7 @@
 	}
 
 	.mainHero-title {
-		font-size: 30px;
+		font-size: var(--font-size-auxiliary);
 		font-weight: bold;
 	}
 }

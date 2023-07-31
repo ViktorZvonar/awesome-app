@@ -4,13 +4,17 @@
 	--color-neutral1: #e5e7eb;
 	--color-neutral2: #f9faf8;
 	--color-button: #3882f6;
+	--color-menu-border: #fbc55e;
 
+	--font-size-extra-small: 12px;
+	--font-size-small: 14px;
+	--font-size-before-medium: 18px;
+	--font-size-medium: 20px;
 	--font-size-header-logo-text: 24px;
-	--font-size-header-link: 18px;
-	--font-size-header-information-text: 36px;
-
+	--font-size-auxiliary: 30px;
+	--font-size-large: 36px;
 	--font-size-hero-header: 48px;
-	--font-size-hero-secondary-text: 18px;
-
-	--font-size-quote-text: 36px;
 }
+
+/* --font-size-large  is former --font-size-quote-text and  --font-size-header-information-text:
+--font-size-before-medium is former --font-size-header-link and --font-size-hero-secondary-text

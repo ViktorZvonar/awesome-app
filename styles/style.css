@@ -10,10 +10,6 @@ body {
 	max-width: 480px;
 }
 
-.section {
-	margin-bottom: 80px;
-}
-
 .button {
 	display: flex;
 	align-items: center;
