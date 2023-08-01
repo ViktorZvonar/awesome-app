@@ -1,0 +1,90 @@
+@import url(../../main.css);
+
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+} */
+
+/* .container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+} */
+
+/* Header styles */
+/* .header {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+.flex-for-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	text-decoration: none;
+	color: #333;
+	display: flex;
+	align-items: center;
+}
+
+.logo-image {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.logo-text {
+	font-size: 20px;
+	font-weight: bold;
+} */
+
+.nav-linkHomepage a {
+	text-decoration: none;
+	color: #333;
+	padding: 5px 10px;
+	border: 1px solid #333;
+	border-radius: 4px;
+}
+
+/* Main content styles */
+main {
+	margin-top: 20px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+}
+
+input,
+select {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+select {
+	cursor: pointer;
+}
+
+/* Footer styles */
+/* footer {
+	height: 100px;
+	background-color: #f1f1f1;
+} */
