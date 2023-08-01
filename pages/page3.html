@@ -3,13 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/order.css" />
     <title>Page3</title>
   </head>
   <body>
-    <header></header>
+    
+    <header class="header">
+      <div class="container flex-for-header">
+        <a class="logo" href="../index.html">
+          <img class="logo-image" src="../images/logo.png" alt="Logo" />
+          <p class="logo-text">Rise and Code :)</p>
+        </a>
+        <nav class="nav-linkHomepage">
+          <a href="../index.html">Go to home page</a>
+        </nav>
+      </div>
+    </header>
+    
     <main class="container">
-      <h1>i am page3</h1>
+      <h1>Order one of our services!</h1>
+      <form>
+        <label for="'fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="number">Contact Number:</label><br>
+        <input type="text" id="number" name="number"><br>
+        <label for="service">Choose a service:</label><br>
+        <select name="'service" id="service">
+          <option value="website">Make a website</option>
+          <option value="app">Make an app</option>
+          <option value="maintenence">Software maintenence</option>
+          <option value="development">Software development</option>
+          <option value="cybersecurity">Cybersecurity</option>
+          <option value="cloud">Cloud solutions</option>
+        </select>
+
+      </form>
     </main>
     <footer></footer>
   </body>
