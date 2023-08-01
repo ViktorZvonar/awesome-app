@@ -31,7 +31,8 @@
 	transition: all 0.2s ease;
 }
 
-.back-to-top:hover {
+.back-to-top:hover,
+.back-to-top:focus {
 	background-color: var(--color-menu-border);
 }
 
