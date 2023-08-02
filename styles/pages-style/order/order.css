@@ -1,90 +1,84 @@
 @import url(../../main.css);
 
-/* body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-} */
-
-/* .container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 20px;
-} */
-
-/* Header styles */
-/* .header {
-	background-color: #f1f1f1;
-	padding: 10px;
-}
-
-.flex-for-header {
+.order {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-direction: column;
+	margin: 60px auto;
+	width: 90%;
 }
 
-.logo {
-	text-decoration: none;
-	color: #333;
-	display: flex;
-	align-items: center;
-}
-
-.logo-image {
-	width: 40px;
-	height: 40px;
-	margin-right: 10px;
-}
-
-.logo-text {
-	font-size: 20px;
+.form-title {
+	color: var(--color-primary);
+	font-size: var(--font-size-medium);
 	font-weight: bold;
-} */
-
-.nav-linkHomepage a {
-	text-decoration: none;
-	color: #333;
-	padding: 5px 10px;
-	border: 1px solid #333;
-	border-radius: 4px;
-}
-
-/* Main content styles */
-main {
-	margin-top: 20px;
-}
-
-h1 {
-	font-size: 28px;
-	font-weight: bold;
-	margin-bottom: 20px;
+	margin: 0 auto 20px;
 }
 
 form {
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
+	width: 90%;
 }
 
-label {
+.form-label {
 	font-weight: bold;
+	font-size: var(--font-size-small);
 }
 
-input,
-select {
+.form-input,
+.form-select {
 	margin-bottom: 10px;
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 1px solid var(--color-input-border);
 	border-radius: 4px;
-	font-size: 16px;
+	font-size: var(--font-size-small);
 }
 
-select {
+.form-select {
 	cursor: pointer;
 }
 
-/* Footer styles */
-/* footer {
-	height: 100px;
-	background-color: #f1f1f1;
-} */
+.form-button {
+	margin: 40px auto 0;
+	padding: 10px;
+	outline: none;
+	border: transparent;
+	width: 90%;
+	font-size: var(--font-size-small);
+}
+
+@media (min-width: 768px) {
+	.form-input,
+	.form-select {
+		font-size: var(--font-size-before-medium);
+	}
+
+	.form-label {
+		font-size: var(--font-size-mediuml);
+	}
+
+	form {
+		width: 80%;
+	}
+
+	.form-button {
+		width: 40%;
+		font-size: var(--font-size-mediuml);
+	}
+
+	.form-title {
+		font-size: var(--font-size-auxiliary);
+		margin: 0 auto 20px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.order {
+		margin: 100px auto;
+	}
+
+	form {
+		width: 60%;
+	}
+}
