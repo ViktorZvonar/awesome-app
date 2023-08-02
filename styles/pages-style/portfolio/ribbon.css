@@ -1,7 +1,4 @@
-/*
-The following classes are declared in the order in which they appear in the HTML.
-Some classes might be declared in a HTML block and reused in another.
-*/
+/* The following classes are declared in the order in which they appear in the HTML. */
 
 .ribbon-section {
     display: flex;
