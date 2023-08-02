@@ -1,7 +1,4 @@
-/*
-The following classes are declared in the order in which they appear in the HTML.
-Some classes might be declared in a HTML block and reused in another.
-*/
+/* The following classes are declared in the order in which they appear in the HTML. */
 
 .project-cards-section {
     display: flex;
@@ -130,9 +127,9 @@ Some classes might be declared in a HTML block and reused in another.
     }
 
     .project-image-and-skills-container {
-        /* flex: 0; */
+        flex: 1;
         flex-direction: column;
-        height: 400px;
+        min-height: 20rem;
     }
 
     .project-image-container {
