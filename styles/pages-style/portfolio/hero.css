@@ -1,0 +1,110 @@
+/*
+The following classes are declared in the order in which they appear in the HTML.
+Some classes might be declared in a HTML block and reused in another.
+*/
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem;
+    padding-top: calc(3rem + 64px); /* 64px to account for header height */
+    background: linear-gradient(rgba(31, 41, 55, 0.5), rgba(31, 41, 55, 0.5)),
+        url("../../../images/code-img.jpeg");
+    background-size: cover;
+}
+
+.hero-info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--color-neutral2);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--color-neutral1);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.hero-skill-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.arrow-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+.arrow-icon {
+    width: 1.5rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+/* Media queries */
+
+/* 950px */
+@media screen and (max-width: 59.375rem) {
+    .hero-info-container {
+        align-items: start;
+        padding-right: 4rem;
+    }
+
+    .hero-title,
+    .hero-description {
+        text-align: start;
+    }
+}
+
+/* 700px */
+@media screen and (max-width: 43.75rem) {
+    /* Hero */
+    .hero-skill-cards-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .skill-card-align-2 {
+        justify-self: center;
+    }
+
+    .skill-card-align-3 {
+        justify-self: end;
+    }
+}
+
+/* 600px */
+@media screen and (max-width: 37.5rem) {
+    .hero-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
