@@ -1,32 +1,32 @@
 /* The following classes are declared in the order in which they appear in the HTML. */
 
 .ribbon-section {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 1.5rem 0;
-    background-color: var(--color-neutral1);
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 1.5rem 0;
+	background-color: var(--color-neutral1);
 }
 
 .ribbon-items-container {
-    display: flex;
-    gap: 10rem;
-    max-width: 75rem;
-    overflow: hidden;
+	display: flex;
+	gap: 10rem;
+	max-width: 75rem;
+	overflow: hidden;
 }
 
 .ribbon-item {
-    flex-shrink: 0;
-    color: var(--color-neutral3);
-    animation: ribbon-item-translation 50s linear infinite;
+	flex-shrink: 0;
+	color: var(--color-neutral3);
+	animation: ribbon-item-translation 50s linear infinite;
 }
 
 @keyframes ribbon-item-translation {
-    0% {
-        transform: translate(-440rem);
-    }
+	0% {
+		transform: translate(-440rem);
+	}
 
-    100% {
-        transform: translate(75rem);
-    }
+	100% {
+		transform: translate(75rem);
+	}
 }
