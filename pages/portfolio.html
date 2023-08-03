@@ -1,364 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../styles/pages-style/portfolio/portfolio.css"
+    />
+    <link rel="icon" href="../images/logo.png" />
+    <title>Portfolio</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="../styles/pages-style/portfolio/portfolio.css" />
-	<link rel="icon" href="../images/logo.png" />
-	<title>Portfolio</title>
-</head>
+  <body>
+    <header class="header">
+      <div class="container flex-for-header">
+        <a class="logo" href="../index.html">
+          <img class="logo-image" src="../images/logo.png" alt="Logo" />
+          <p class="logo-text">Rise and Code :)</p>
+        </a>
+        <input type="checkbox" id="hamburger" />
+        <label class="hamburger-label" for="hamburger"
+          ><span class="hamburger-sign">&#9776;</span>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="../index.html">Home</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="./about-us.html">About Us</a>
+              </li>
+              <li class="header-nav-item current">
+                <a href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="./order.html">Order</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="./contact.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </label>
+      </div>
+    </header>
 
-<body>
+    <main>
+      <!-- Hero -->
+      <section class="hero-section">
+        <div class="hero-info-container">
+          <h1 class="hero-title">See some of our successful cases</h1>
+          <h2 class="hero-description">
+            We have delivered beautiful, intuitive and profitable web apps to
+            clients from several different industries.
+            <br />
+            Scrolling down, you will find some of our solutions.
+          </h2>
+          <ul class="hero-skill-cards-container">
+            <li class="skill-card">
+              <p>UX/UI design</p>
+            </li>
+            <li class="skill-card skill-card-align-2">
+              <p>Front-end</p>
+            </li>
+            <li class="skill-card skill-card-align-3">
+              <p>Back-end</p>
+            </li>
+          </ul>
+        </div>
+        <div class="arrow-icon-container">
+          <img class="arrow-icon" src="../images/arrow-icon.svg" />
+        </div>
+      </section>
 
-	<header class="header">
-		<div class="container flex-for-header">
-			<a class="logo" href="../index.html">
-				<img class="logo-image" src="../images/logo.png" alt="Logo" />
-				<p class="logo-text">Rise and Code :)</p>
-			</a>
-			<input type="checkbox" id="hamburger" />
-			<label class="hamburger-label" for="hamburger"><span class="hamburger-sign">&#9776</span>
-				<nav class="header-nav">
-					<ul class="header-nav-list">
-						<li class="header-nav-item"><a href="../index.html">Home</a></li>
-						<li class="header-nav-item">
-							<a href="./about-us.html">About Us</a>
-						</li>
-						<li class="header-nav-item current">
-							<a href="./portfolio.html">Portfolio</a>
-						</li>
-						<li class="header-nav-item">
-							<a href="./order.html">Order</a>
-						</li>
-						<li class="header-nav-item">
-							<a href="./contact.html">Contacts</a>
-						</li>
-					</ul>
-				</nav>
-			</label>
-		</div>
-	</header>
+      <!-- Ribbon -->
+      <section class="ribbon-section">
+        <ul class="ribbon-items-container">
+          <li class="ribbon-item">Banking</li>
+          <li class="ribbon-item">E-Commerce</li>
+          <li class="ribbon-item">Technology</li>
+          <li class="ribbon-item">Travel</li>
+          <li class="ribbon-item">Marketing</li>
+          <li class="ribbon-item">Manufacturing</li>
+          <li class="ribbon-item">Finance</li>
+          <li class="ribbon-item">Real State</li>
+          <li class="ribbon-item">Healthcare</li>
+          <li class="ribbon-item">Education</li>
+          <li class="ribbon-item">Entertainment</li>
+          <li class="ribbon-item">Hospitality</li>
+          <li class="ribbon-item">Energy</li>
+          <li class="ribbon-item">Automotive</li>
+          <li class="ribbon-item">Agriculture</li>
+          <li class="ribbon-item">Retail</li>
+          <li class="ribbon-item">Food and Beverage</li>
+          <li class="ribbon-item">Fashion and Apparel</li>
+          <li class="ribbon-item">Media and Communications</li>
+          <li class="ribbon-item">Construction</li>
+          <li class="ribbon-item">Pharmaceuticals</li>
+          <li class="ribbon-item">Telecommunications</li>
+          <li class="ribbon-item">Insurance</li>
+          <li class="ribbon-item">Aerospace</li>
+          <li class="ribbon-item">Gaming</li>
+          <li class="ribbon-item">Renewable Energy</li>
+          <li class="ribbon-item">Logistics and Transportation</li>
+          <li class="ribbon-item">Sports and Recreation</li>
+        </ul>
+      </section>
 
-	<main>
-		<!-- Hero -->
-		<section class="hero-section">
-			<div class="hero-info-container">
-				<h1 class="hero-title">See some of our successful cases</h1>
-				<h2 class="hero-description">
-					We have delivered beautiful, intuitive and profitable web apps to
-					clients from several different industries.
-					<br />
-					Scrolling down, you will find some of our solutions.
-				</h2>
-				<ul class="hero-skill-cards-container">
-					<li class="skill-card">
-						<p>UX/UI design</p>
-					</li>
-					<li class="skill-card skill-card-align-2">
-						<p>Front-end</p>
-					</li>
-					<li class="skill-card skill-card-align-3">
-						<p>Back-end</p>
-					</li>
-				</ul>
-			</div>
-			<div class="arrow-icon-container">
-				<img class="arrow-icon" src="../images/arrow-icon.svg" />
-			</div>
-		</section>
+      <!-- Project cards -->
+      <section class="project-cards-section">
+        <ol class="project-cards-container">
+          <!-- Project 1 -->
+          <li id="project-1" class="project-card bg-p-1">
+            <div class="project-info-container">
+              <div class="project-info-bg glass-1">
+                <div class="project-texts-container">
+                  <h3 class="project-title">Filmoteka</h3>
+                  <p class="project-description">
+                    The ultimate movie tracking and recommendation app designed
+                    for cinephiles and movie enthusiasts! Filmoteka is a
+                    user-friendly platform that functions similarly to
+                    MyAnimeList but focuses on movies. With a sleek and
+                    intuitive interface, users can create personalized movie
+                    lists, rate and review films, and keep track of their
+                    watched, planned, and favorite movies.
+                  </p>
+                </div>
+                <a
+                  class="a-button secondary-button project-button"
+                  href="https://viktorzvonar.github.io/film-o-teka/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click here to see it live
+                </a>
+              </div>
+            </div>
+            <div class="project-image-and-skills-container">
+              <div class="project-image-container">
+                <img
+                  class="project-image"
+                  src="../images/filmoteka.png"
+                  alt="A printscreen of the app Filmoteka."
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <ul class="project-skill-cards-container">
+                <li class="skill-card">
+                  <p>UX/UI design</p>
+                </li>
+                <li class="skill-card">
+                  <p>Front-end</p>
+                </li>
+                <li class="skill-card">
+                  <p>Back-end</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Project 2 -->
+          <li id="project-2" class="project-card bg-p-2 project-card-reverse">
+            <div class="project-info-container">
+              <div class="project-info-bg glass-2">
+                <div class="project-texts-container">
+                  <h3 class="project-title">Caitlyn</h3>
+                  <p class="project-description">
+                    Powered by the ChatGPT API, users can engage in simulated
+                    audio conversations with an AI language partner. Learners
+                    can practice their English speaking skills in a natural and
+                    engaging way, receiving AI-generated responses to improve
+                    their fluency and confidence.
+                  </p>
+                </div>
+                <a
+                  class="a-button secondary-button project-button hover-color-p-2"
+                  href="https://www.caitlyn.chat/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click here to see it live
+                </a>
+              </div>
+            </div>
+            <div class="project-image-and-skills-container">
+              <div class="project-image-container">
+                <img
+                  class="project-image"
+                  src="../images/caitlyn.png"
+                  alt="A printscreen of the app Caitlyn."
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <ul
+                class="project-skill-cards-container project-skill-cards-container-reverse"
+              >
+                <li class="skill-card">
+                  <p>UX/UI design</p>
+                </li>
+                <li class="skill-card">
+                  <p>Front-end</p>
+                </li>
+                <li class="skill-card">
+                  <p>Back-end</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Project 3 -->
+          <li id="project-3" class="project-card bg-n-2">
+            <div class="project-info-container">
+              <div class="project-info-bg glass-3">
+                <div class="project-texts-container">
+                  <h3 class="project-title color-p-2">Atmos Fashion</h3>
+                  <p class="project-description color-p-2">
+                    The ultimate e-commerce platform for fashion-forward
+                    individuals looking to express their unique style and
+                    embrace the latest trends! Atmos Fashion offers a
+                    captivating online shopping experience with an extensive
+                    collection of clothing, accessories, and footwear from
+                    top-notch brands and emerging designers alike.
+                  </p>
+                </div>
+                <a
+                  class="a-button secondary-button project-button color-p-2 border-p-2 hover-bg-p-2 hover-color-n-1"
+                  href="https://atmosfashion.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click here to see it live
+                </a>
+              </div>
+            </div>
+            <div class="project-image-and-skills-container">
+              <div class="project-image-container">
+                <img
+                  class="project-image"
+                  src="../images/atmos-fashion.png"
+                  alt="A printscreen of the app Atmos Fashion."
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <ul class="project-skill-cards-container">
+                <li class="skill-card">
+                  <p>Front-end</p>
+                </li>
+                <li class="skill-card">
+                  <p>Back-end</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Project 4 -->
+          <li id="project-4" class="project-card project-card-reverse bg-p-1">
+            <div class="project-info-container">
+              <div class="project-info-bg glass-1">
+                <div class="project-texts-container">
+                  <h3 class="project-title">YFCM</h3>
+                  <p class="project-description">
+                    YFCM (Your Friends' Contacts Manager), the ultimate app to
+                    effortlessly manage your contacts and stay connected with
+                    your friends! YFCM is a user-friendly and feature-rich
+                    contact management platform designed to streamline and
+                    organize your social connections.
+                  </p>
+                </div>
+                <a
+                  class="a-button secondary-button project-button"
+                  href="https://viktorzvonar.github.io/fcm/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click here to see it live
+                </a>
+              </div>
+            </div>
+            <div class="project-image-and-skills-container">
+              <div class="project-image-container">
+                <img
+                  class="project-image"
+                  src="../images/yfcm.png"
+                  alt="A printscreen of the app YFCM."
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <ul
+                class="project-skill-cards-container project-skill-cards-container-reverse"
+              >
+                <li class="skill-card">
+                  <p>Front-end</p>
+                </li>
+                <li class="skill-card">
+                  <p>Back-end</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Project 5 -->
+          <li id="project-5" class="project-card bg-p-2">
+            <div class="project-info-container">
+              <div class="project-info-bg glass-2">
+                <div class="project-texts-container">
+                  <h3 class="project-title">Maze Generator</h3>
+                  <p class="project-description">
+                    A Maze Generator that uses an animated depth-first search
+                    algorithm to generate random mazes, which are playable
+                    afterwards. The goal is to escape from the generated maze
+                    before the time runs out.
+                    <br />
+                    Generate as many mazes as you want, and visualize it
+                    adjusting the animation speed.
+                  </p>
+                </div>
 
-		<!-- Ribbon -->
-		<section class="ribbon-section">
-			<ul class="ribbon-items-container">
-				<li class="ribbon-item">Banking</li>
-				<li class="ribbon-item">E-Commerce</li>
-				<li class="ribbon-item">Technology</li>
-				<li class="ribbon-item">Travel</li>
-				<li class="ribbon-item">Marketing</li>
-				<li class="ribbon-item">Manufacturing</li>
-				<li class="ribbon-item">Finance</li>
-				<li class="ribbon-item">Real State</li>
-				<li class="ribbon-item">Healthcare</li>
-				<li class="ribbon-item">Education</li>
-				<li class="ribbon-item">Entertainment</li>
-				<li class="ribbon-item">Hospitality</li>
-				<li class="ribbon-item">Energy</li>
-				<li class="ribbon-item">Automotive</li>
-				<li class="ribbon-item">Agriculture</li>
-				<li class="ribbon-item">Retail</li>
-				<li class="ribbon-item">Food and Beverage</li>
-				<li class="ribbon-item">Fashion and Apparel</li>
-				<li class="ribbon-item">Media and Communications</li>
-				<li class="ribbon-item">Construction</li>
-				<li class="ribbon-item">Pharmaceuticals</li>
-				<li class="ribbon-item">Telecommunications</li>
-				<li class="ribbon-item">Insurance</li>
-				<li class="ribbon-item">Aerospace</li>
-				<li class="ribbon-item">Gaming</li>
-				<li class="ribbon-item">Renewable Energy</li>
-				<li class="ribbon-item">Logistics and Transportation</li>
-				<li class="ribbon-item">Sports and Recreation</li>
-			</ul>
-		</section>
+                <a
+                  class="a-button secondary-button project-button hover-color-p-2"
+                  href="https://www.weeev.cyou/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click here to see it live
+                </a>
+              </div>
+            </div>
+            <div class="project-image-and-skills-container">
+              <div class="project-image-container">
+                <img
+                  class="project-image"
+                  src="../images/maze-generator.png"
+                  alt="A printscreen of the app Maze Generator."
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <ul class="project-skill-cards-container">
+                <li class="skill-card">
+                  <p>UX/UI design</p>
+                </li>
+                <li class="skill-card">
+                  <p>Front-end</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </section>
 
-		<!-- Project cards -->
-		<section class="project-cards-section">
-			<ol class="project-cards-container">
-				<!-- Project 1 -->
-				<li id="project-1" class="project-card bg-p-1">
-					<div class="project-info-container">
-						<div class="project-info-bg glass-1">
-							<div class="project-texts-container">
-								<h3 class="project-title">Filmoteka</h3>
-								<p class="project-description">
-									The ultimate movie tracking and recommendation app designed
-									for cinephiles and movie enthusiasts! Filmoteka is a
-									user-friendly platform that functions similarly to
-									MyAnimeList but focuses on movies. With a sleek and
-									intuitive interface, users can create personalized movie
-									lists, rate and review films, and keep track of their
-									watched, planned, and favorite movies.
-								</p>
-							</div>
-							<a class="a-button secondary-button project-button" href="https://viktorzvonar.github.io/film-o-teka/"
-								target="_blank" rel="noopener noreferrer">
-								Click here to see it live
-							</a>
-						</div>
-					</div>
-					<div class="project-image-and-skills-container">
-						<div class="project-image-container">
-							<img class="project-image" src="../images/filmoteka.png" alt="A printscreen of the app Filmoteka." />
-							<div class="project-image-overlay"></div>
-						</div>
-						<ul class="project-skill-cards-container">
-							<li class="skill-card">
-								<p>UX/UI design</p>
-							</li>
-							<li class="skill-card">
-								<p>Front-end</p>
-							</li>
-							<li class="skill-card">
-								<p>Back-end</p>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<!-- Project 2 -->
-				<li id="project-2" class="project-card bg-p-2 project-card-reverse">
-					<div class="project-info-container">
-						<div class="project-info-bg glass-2">
-							<div class="project-texts-container">
-								<h3 class="project-title">Caitlyn</h3>
-								<p class="project-description">
-									Powered by the ChatGPT API, users can engage in simulated
-									audio conversations with an AI language partner. Learners
-									can practice their English speaking skills in a natural and
-									engaging way, receiving AI-generated responses to improve
-									their fluency and confidence.
-								</p>
-							</div>
-							<a class="a-button secondary-button project-button hover-color-p-2" href="https://www.caitlyn.chat/"
-								target="_blank" rel="noopener noreferrer">
-								Click here to see it live
-							</a>
-						</div>
-					</div>
-					<div class="project-image-and-skills-container">
-						<div class="project-image-container">
-							<img class="project-image" src="../images/caitlyn.png" alt="A printscreen of the app Caitlyn." />
-							<div class="project-image-overlay"></div>
-						</div>
-						<ul class="project-skill-cards-container project-skill-cards-container-reverse">
-							<li class="skill-card">
-								<p>UX/UI design</p>
-							</li>
-							<li class="skill-card">
-								<p>Front-end</p>
-							</li>
-							<li class="skill-card">
-								<p>Back-end</p>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<!-- Project 3 -->
-				<li id="project-3" class="project-card bg-n-2">
-					<div class="project-info-container">
-						<div class="project-info-bg glass-3">
-							<div class="project-texts-container">
-								<h3 class="project-title color-p-2">Atmos Fashion</h3>
-								<p class="project-description color-p-2">
-									The ultimate e-commerce platform for fashion-forward
-									individuals looking to express their unique style and
-									embrace the latest trends! Atmos Fashion offers a
-									captivating online shopping experience with an extensive
-									collection of clothing, accessories, and footwear from
-									top-notch brands and emerging designers alike.
-								</p>
-							</div>
-							<a class="a-button secondary-button project-button color-p-2 border-p-2 hover-bg-p-2 hover-color-n-1"
-								href="https://atmosfashion.netlify.app/" target="_blank" rel="noopener noreferrer">
-								Click here to see it live
-							</a>
-						</div>
-					</div>
-					<div class="project-image-and-skills-container">
-						<div class="project-image-container">
-							<img class="project-image" src="../images/atmos-fashion.png"
-								alt="A printscreen of the app Atmos Fashion." />
-							<div class="project-image-overlay"></div>
-						</div>
-						<ul class="project-skill-cards-container">
-							<li class="skill-card">
-								<p>Front-end</p>
-							</li>
-							<li class="skill-card">
-								<p>Back-end</p>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<!-- Project 4 -->
-				<li id="project-4" class="project-card project-card-reverse bg-p-1">
-					<div class="project-info-container">
-						<div class="project-info-bg glass-1">
-							<div class="project-texts-container">
-								<h3 class="project-title">YFCM</h3>
-								<p class="project-description">
-									YFCM (Your Friends' Contacts Manager), the ultimate app to
-									effortlessly manage your contacts and stay connected with
-									your friends! YFCM is a user-friendly and feature-rich
-									contact management platform designed to streamline and
-									organize your social connections.
-								</p>
-							</div>
-							<a class="a-button secondary-button project-button" href="https://viktorzvonar.github.io/fcm/"
-								target="_blank" rel="noopener noreferrer">
-								Click here to see it live
-							</a>
-						</div>
-					</div>
-					<div class="project-image-and-skills-container">
-						<div class="project-image-container">
-							<img class="project-image" src="../images/yfcm.png" alt="A printscreen of the app YFCM." />
-							<div class="project-image-overlay"></div>
-						</div>
-						<ul class="project-skill-cards-container project-skill-cards-container-reverse">
-							<li class="skill-card">
-								<p>Front-end</p>
-							</li>
-							<li class="skill-card">
-								<p>Back-end</p>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<!-- Project 5 -->
-				<li id="project-5" class="project-card bg-p-2">
-					<div class="project-info-container">
-						<div class="project-info-bg glass-2">
-							<div class="project-texts-container">
-								<h3 class="project-title">Maze Generator</h3>
-								<p class="project-description">
-									A Maze Generator that uses an animated depth-first search
-									algorithm to generate random mazes, which are playable
-									afterwards. The goal is to escape from the generated maze
-									before the time runs out.
-									<br />
-									Generate as many mazes as you want, and visualize it
-									adjusting the animation speed.
-								</p>
-							</div>
+      <!-- Call to action -->
+      <section class="call-to-action-section">
+        <div class="call-to-action-container">
+          <div>
+            <h4 class="call-to-action-title">Ready to get started?</h4>
+            <p class="call-to-action-description">
+              Experience our top-notch services now!
+            </p>
+          </div>
+          <div class="call-to-action-buttons-container">
+            <a
+              class="a-button primary-button call-to-action-button hover-color-p-2"
+              href="./order.html"
+            >
+              Order
+            </a>
+            <a
+              href="./contact.html"
+              class="a-button secondary-button call-to-action-button hover-color-p-2"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </section>
 
-							<a class="a-button secondary-button project-button hover-color-p-2" href="https://www.weeev.cyou/"
-								target="_blank" rel="noopener noreferrer">
-								Click here to see it live
-							</a>
-						</div>
-					</div>
-					<div class="project-image-and-skills-container">
-						<div class="project-image-container">
-							<img class="project-image" src="../images/maze-generator.png"
-								alt="A printscreen of the app Maze Generator." />
-							<div class="project-image-overlay"></div>
-						</div>
-						<ul class="project-skill-cards-container">
-							<li class="skill-card">
-								<p>UX/UI design</p>
-							</li>
-							<li class="skill-card">
-								<p>Front-end</p>
-							</li>
-						</ul>
-					</div>
-				</li>
-			</ol>
-		</section>
+      <!-- Side navigation -->
+      <nav class="side-navigation">
+        <div class="side-navigation-container">
+          <ul class="side-navigation-items-container">
+            <li>
+              <a class="side-navigation-item" href="#project-1">
+                <div class="side-navigation-core bg-p-1"></div>
+              </a>
+            </li>
+            <li>
+              <a class="side-navigation-item" href="#project-2">
+                <div class="side-navigation-core bg-p-2"></div>
+              </a>
+            </li>
+            <li>
+              <a class="side-navigation-item" href="#project-3">
+                <div class="side-navigation-core bg-n-2"></div>
+              </a>
+            </li>
+            <li>
+              <a class="side-navigation-item" href="#project-4">
+                <div class="side-navigation-core bg-p-1"></div>
+              </a>
+            </li>
+            <li>
+              <a class="side-navigation-item" href="#project-5">
+                <div class="side-navigation-core bg-p-2"></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </main>
 
-		<!-- Call to action -->
-		<section class="call-to-action-section">
-			<div class="call-to-action-container">
-				<div>
-					<h4 class="call-to-action-title">Ready to get started?</h4>
-					<p class="call-to-action-description">
-						Experience our top-notch services now!
-					</p>
-				</div>
-				<div class="call-to-action-buttons-container">
-					<a class="a-button primary-button call-to-action-button hover-color-p-2" href="./order.html">
-						Order
-					</a>
-					<a href="./contact.html" class="a-button secondary-button call-to-action-button hover-color-p-2">
-						Contact Us
-					</a>
-				</div>
-			</div>
-		</section>
-
-		<!-- Side navigation -->
-		<nav class="side-navigation">
-			<div class="side-navigation-container">
-				<ul class="side-navigation-items-container">
-					<li>
-						<a class="side-navigation-item" href="#project-1">
-							<div class="side-navigation-core bg-p-1"></div>
-						</a>
-					</li>
-					<li>
-						<a class="side-navigation-item" href="#project-2">
-							<div class="side-navigation-core bg-p-2"></div>
-						</a>
-					</li>
-					<li>
-						<a class="side-navigation-item" href="#project-3">
-							<div class="side-navigation-core bg-n-2"></div>
-						</a>
-					</li>
-					<li>
-						<a class="side-navigation-item" href="#project-4">
-							<div class="side-navigation-core bg-p-1"></div>
-						</a>
-					</li>
-					<li>
-						<a class="side-navigation-item" href="#project-5">
-							<div class="side-navigation-core bg-p-2"></div>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</main>
-
-	<footer class="footer">
-		<div class="container">
-			<a class="back-to-top" href="#top">&#x21D1</a>
-			<p class="footer-copyright">
-				<span class="footer-sign">&copy</span> 2023 Rise and Code:)
-			</p>
-		</div>
-	</footer>
-</body>
-
+    <footer class="footer">
+      <div class="container">
+        <a class="back-to-top" href="#top">&#x21D1;</a>
+        <p class="footer-copyright">
+          <span class="footer-sign">&copy</span> 2023 Rise and Code:)
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
